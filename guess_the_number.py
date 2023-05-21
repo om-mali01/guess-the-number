@@ -4,7 +4,7 @@ number = random.randint(0, 100)
 attempts = 10
 print(f"You have {attempts} attempts to guess the number.")
 
-for chance in range(1, attempts):
+for chance in range(1, attempts+1):
     guess = int(input("\nGuess the number: "))
 
     if guess == number:
